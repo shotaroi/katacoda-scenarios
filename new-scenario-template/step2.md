@@ -1,8 +1,41 @@
 # Heading for Step 2
 
-This is some text.
+It's time to change the gradle.build file so that gradle can understand that we want to use Cucumber. Remove the text in the gradle.build file and replace it with the following: 
 
-Here's a single line of runnable code:
+<pre class="file" data-filename="./cucumber-project/build.gradle" data-target="insert">
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    testImplementation 'io.cucumber:cucumber-java:7.0.0'
+}
+configurations {
+    cucumberRuntime {
+        extendsFrom testImplementation
+    }
+}
+
+task cucumber() {
+    dependsOn assemble, testClasses
+    doLast {
+        javaexec {
+            main = "io.cucumber.core.cli.Main"
+            classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+            args = ['--plugin', 'pretty', '--glue', 'gradle.cucumber', 'src/test/resources']
+        }
+    }
+}
+</pre>
 
 `printf 'Jello, world!\n\n'`{{execute}}
 
