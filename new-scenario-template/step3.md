@@ -13,10 +13,8 @@ Create a java file called Prime.java:
 <pre class="file" data-filename="./cucumber-project/src/main/java/cucumber/project/Prime.java" data-target="replace">
 package gradle.cucumber;
 
-
 public class Prime {
     public String play(int number){
-
         if (number<2) throw new IllegalArgumentException("There are no primenumber less than 2, please provide a larger number");
         for(int i=2; i<number-1; i++){
             if(number % 1==0){
