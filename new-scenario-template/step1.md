@@ -15,11 +15,16 @@ In order to use Cucumber testing, you have to use a build tool, either Gradle or
 You have to chose some alternatives:
 
 Let's create a java application project with Groovy and JUnit4. 
+
 `2`{{execute}}
 `3`{{execute}}
 `1`{{execute}}
 `1`{{execute}}
-`\r\n`{{execute}}
+
+And set the project name `cucumber-project` and source package name `cucumber.project`.
+
+`cucumber-project`{{execute}}
+`cucumber.project`{{execute}}
 
 Great! Gradle is now configured in the folder. You can verify this by doing `ls`{{execute}}, and you will see new gradle files in the directory. 
 
