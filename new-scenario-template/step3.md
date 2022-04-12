@@ -15,8 +15,8 @@ package gradle.cucumber;
 
 public class Prime {
     public String play(int number){
-        if (number<2) throw new IllegalArgumentException("There are no primenumber less than 2, please provide a larger number");
-        for(int i=2; i<number-1; i++){
+        if (number < 2) throw new IllegalArgumentException("There are no primenumber less than 2, please provide a larger number");
+        for(int i=2; i < number-1; i++){
             if(number % 1==0){
                 return "NoPrime";
             }
