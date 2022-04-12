@@ -13,6 +13,10 @@ In order to use Cucumber testing, you have to use a build tool, either Gradle or
 `gradle init`{{execute}}
 
 You have to chose some alternatives:
+
+Let's create a java application project with Groovy and JUnit4. 
+`2`{{execute}}
+`3`{{execute}}
 `1`{{execute}}
 `1`{{execute}}
 `\r\n`{{execute}}
