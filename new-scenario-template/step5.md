@@ -7,12 +7,12 @@ folder:
 
 `cd cucumber-project/src/test/java/cucumber/project`{{execute}}
 
-By doing `ls`{{execute}} we can see that there is already a test file here called AppTest.java. `./cucumber-project/src/test/cucumber/project/AppTest.java`{{open}} We want to replace the code in this file. 
+Let's create the PrimeStepdefs.java file. `touch PrimeStepdefs.java`{{execute}} 
 
 This file defines what should be checked for lines starting with the keyword "Given", "When", and "Then" in the Prime.feature file. It's important that the text in the 
 brackets that comes after the keyword is the same as the corresponding text in the Prime.feature file.
 
-<pre class="file" data-filename="./cucumber-project/src/test/cucumber/project/AppTest.java" data-target="replace">
+<pre class="file" data-filename="./cucumber-project/src/test/cucumber/project/PrimeStepdefs.java" data-target="replace">
 package cucumber.project;
 
 import io.cucumber.java.en.Given;
@@ -20,7 +20,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.jupiter.api.Assertions;
 
-public class AppTest{
+public class PrimeStepdefs{
 
     cucumber.project.Prime prime;
     String result;
