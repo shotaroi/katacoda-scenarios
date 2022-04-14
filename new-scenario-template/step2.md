@@ -37,5 +37,4 @@ task cucumber() {
 }
 </pre>
 
-`printf 'Jello, world!\n\n'`{{execute}}
 
