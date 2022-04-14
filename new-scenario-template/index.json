@@ -1,8 +1,8 @@
 {
-  "title": "New Scenario Template",
-  "description": "A simple scenario example.",
+  "title": "Test automation using Cucumber with Gradle",
+  "description": "A tutorial for test automation",
   "difficulty": "Beginner",
-  "time": "3 minutes",
+  "time": "10-20 minutes",
   "details": {
     "steps": [
       {
