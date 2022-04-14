@@ -7,7 +7,7 @@ folder:
 
 `cd cucumber-project/src/test/java/cucumber/project`{{execute}}
 
-By doing `ls`{{execute}} we can see that there is already a test file here called AppTest.java. `./cucumber-project/src/test/cucumber/project/AppTest.java` We want to replace the code in this file. 
+By doing `ls`{{execute}} we can see that there is already a test file here called AppTest.java. We want to replace the code in this file. 
 
 This file defines what should be checked for lines starting with the keyword "Given", "When", and "Then" in the Prime.feature file. It's important that the text in the 
 brackets that comes after the keyword is the same as the corresponding text in the Prime.feature file.

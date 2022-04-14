@@ -11,7 +11,7 @@ Create a java file called Prime.java:
 `touch Prime.java`{{execute}}
 
 <pre class="file" data-filename="./cucumber-project/src/main/java/cucumber/project/Prime.java" data-target="replace">
-package gradle.cucumber;
+package cucumber.project;
 
 public class Prime {
     public String play(int number){
