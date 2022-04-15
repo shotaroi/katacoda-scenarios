@@ -1,6 +1,6 @@
 # Gradle configuration for Cucumber
 
-It's time to change the build.gradle file so that gradle can understand that we want to use Cucumber. Remove the text in the gradle.build file and replace it with the following: 
+It's time to change the build.gradle file so that gradle can understand that we want to use Cucumber. We should add some dependencies, configurations and Cucumber task. The Cucumber task is configured to run the test scenarios written in a feature file in resources directory. We're gonna look at the feature file and test scenarios more in detail later. Let's remove the text in the gradle.build file and replace it with the following: 
 
 <pre class="file" data-filename="./cucumber-project/build.gradle" data-target="replace">
 plugins {
