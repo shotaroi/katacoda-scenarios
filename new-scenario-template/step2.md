@@ -1,4 +1,4 @@
-# Heading for Step 2
+# Gradle configuration for Cucumber
 
 It's time to change the build.gradle file so that gradle can understand that we want to use Cucumber. Remove the text in the gradle.build file and replace it with the following: 
 
