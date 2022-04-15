@@ -1,6 +1,10 @@
+# Why test automation?
+
+In software development, efficiency is one of the most important things to be considered. Thus current trend is to perform testing automatically rather than do it manually. Test automation enables software developers to save time, money and effort, and helps deployment of applications with better quality.    
+
 # Setup a Gradle project
 
-Let's make a folder where we can create our code with cucumber testing:
+Let's start with making a folder where we can create our code with cucumber testing:
 
 `mkdir cucumber-project`{{execute}}
 
