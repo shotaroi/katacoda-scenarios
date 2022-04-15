@@ -28,7 +28,7 @@
     ],
     "intro": {
       "text": "intro.md",
-      "code": "foreground.sh"
+      "background": "foreground.sh"
     },
     "finish": {
       "text": "finish.md"
