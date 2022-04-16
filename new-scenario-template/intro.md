@@ -7,7 +7,7 @@
 ## Learning Objective
 
 - How to create a gradle project
-- What is Cucumber, and why it's important 
+- What is Cucumber, and why it's beneficial
 - How to perform automated test using Cucumber with Gradle
 
 ## Prerequisite Skills

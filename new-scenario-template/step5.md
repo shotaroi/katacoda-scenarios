@@ -1,7 +1,7 @@
 # Define the steps in the .feature file and run tests
 
-We must define the steps we have created in the Prime.feature file. We do this in a new file called PrimeStepdefs.java located in the test/java folder. Let's enter that
-folder:
+We must define the steps we have created in the `Prime.feature` file. We do this in a file located in the test project directory. Let's enter that
+directory:
 
 `cd`{{execute}}
 
@@ -9,8 +9,8 @@ folder:
 
 By doing `ls`{{execute}} we can see that there is already a test file here called AppTest.java. We want to replace the code in this file. 
 
-This file defines what should be checked for lines starting with the keyword "Given", "When", and "Then" in the Prime.feature file. It's important that the text in the 
-brackets that comes after the keyword is the same as the corresponding text in the Prime.feature file.
+This file defines what should be checked for lines starting with the keyword `Given`, `When`, and `Then` (steps) in the `Prime.feature` file. It's important that the text in the 
+brackets that comes after the keyword is the same as the corresponding text in the `Prime.feature` file.
 
 <pre class="file" data-filename="./cucumber-project/src/test/java/cucumber/project/AppTest.java" data-target="replace">
 package cucumber.project;
@@ -60,3 +60,8 @@ And run the tests:
 
 `gradle cucumber`{{execute}}
 
+Now you should be able to see that all scenarios and steps are passed :) 
+
+# Benefits of Cucumber
+
+In Cucumber `Behavior-driven development` approach is adopted and it works well for better collaboration between different teams in development, and customers. This is largely thanks to the behavior scenarios which can be written by anyone with plain language. And the `Gherkin language` used for describing the test cases also help the collaboration with its easy to understand style not only for the developer but also for other non-technical persons. 

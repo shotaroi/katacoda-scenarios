@@ -1,17 +1,11 @@
 
-On the finish page, summarize what was just learned:
+Well, `Given` our Cucumber tutorial and `When` you've completed it, which we suppose you’ve just done that now, `Then` we're 100% sure that you're now familier with how you can run an automated tests on Cucumber! So what you've learnt thorough our katacoda tutorial are: 
 
-- 3-4 bullets
-- of what you just
-- did and learned
+- How to create a gradle project
+- What is Cucumber, and why it's beneficial  
+- How to perform automated test using Cucumber with Gradle
 
-## Table of Contents
-
-If the scenario is part of a set of related scenarios, the table of contents will appear here as a bulleted list of all the scenario titles, with links to each other.
-
-- Scenario A
-- Scenario B
-- Scenario C
+We hope you'll be able to use knowledge you gained from this tutorial for more efficient and happy software development! 
 
 ## Further Learning
 
